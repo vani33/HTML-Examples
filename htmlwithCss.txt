@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+.leftdiv {
+	float: left;
+	background-color: lightyellow;
+	width: 200px;
+	height: 420px;
+	color: black;
+}
+
+.rightdiv {
+	float: left;
+	width: 1060px;
+	height: 420px;
+	background-color: moccasin;
+	color: black;
+}
+
+div {
+	padding: 1%;
+	color: white;
+	width: 30%;
+	border: solid black;
+}
+
+header {
+	padding: 10px;
+	color: black;
+	background-color: hotpink;
+	font-size: 13px;
+	text-align: center;
+	width: 1300px;
+	border: solid black;
+}
+
+footer {
+	padding: 10px;
+	color: black;
+	background-color: lightseagreen;
+	font-size: 13px;
+	text-align: center;
+	width: 1300px;
+	border: solid black;
+}
+
+.content {
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+}
+
+/* img.top {
+	vertical-align: text-top;
+	display: inline-block;
+} */
+</style>
+</head>
+<body>
+
+	<header>
+		<h1>Header</h1>
+	</header>
+
+	<div class="leftdiv">
+		<h1 align="center">Nav</h1>
+	</div>
+
+	<div class="rightdiv">
+		<h1 align="center">Content</h1>
+		<p>
+			<img src="C:\Users\kothapalli.vanisree\Desktop\Pink_flower.jpg"
+				class="top" alt="Good Morning Friends" width=300px height=300px align="top"/> This is an image with a
+			text-top alignment. It is applied to inline or inline-block elements.
+			
+		</p>
+
+	</div>
+
+	<footer>
+		<h1>Footer</h1>
+	</footer>
+
+</body>
+</html>

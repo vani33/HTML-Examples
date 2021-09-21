@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+.a {
+	padding: 10px;
+	color: grey;
+	width: 220px;
+	font-size: 10px;
+	text-align: center;
+}
+
+.register {
+	padding: 10px;
+	color: white;
+	width: 240px;
+	background-color: steelblue;
+	font-size: 10px;
+	text-align: center;
+}
+
+.b {
+	height: 320px;
+	width: 250px;
+	padding: 10px;
+	color: lightgrey;
+	background-color: lightgrey;
+	text-align: center;
+	margin-left:500px;
+}
+
+.signup {
+	height: 35px;
+	background-color: steelblue;
+	width: 250px;
+	padding: 10px;
+	color: lightgrey;
+	text-align: center;
+	margin-left:500px;
+}
+</style>
+</head>
+<body>
+	<div class="signup">
+		<h4>SignUp</h4>
+	</div>
+	<div class="b">
+
+		<form>
+			<div class="a">
+				<input class="a" type="text" name="UserName" placeholder="Username">
+			</div>
+			<div class="a">
+				<input class="a" type="text" name="EmailAddress"
+					placeholder="EmailAddress">
+			</div>
+
+			<div class="a">
+				<input class="a" type="password" name="Password"
+					placeholder="Password">
+			</div>
+
+			<div class="a">
+				<input class="a" type="text" name="FirstName"
+					placeholder="FirstName">
+			</div>
+
+			<div class="a">
+				<input class="a" type="text" name="LastName" placeholder="LastName">
+			</div>
+			<div class="a">
+				<button class="register">Register</button>
+			</div>
+
+		</form>
+	</div>
+
+
+</body>
+</html>

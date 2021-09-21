@@ -1,0 +1,104 @@
+<html>
+<style>
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+.container {
+	width: 1000px;
+	margin: 10px auto;
+}
+
+.header {
+	background: skyblue;
+	width: 100%;
+	height: 100px;
+	position: relative;
+	float: left;
+}
+
+.center {
+	width: 100%;
+	position: relative;
+	float: left;
+	margin-top: 10px;
+	position: relative;
+}
+
+.left-side {
+	width: 23%;
+	background: green;
+	height: 500px;
+	position: relative;
+	float: left;
+}
+
+.middle {
+	width: 60%;
+	height: 500px;
+	background: red;
+	position: relative;
+	margin: 0 1%;
+	float: left;
+}
+
+.right {
+	width: 15%;
+	height: 500px;
+	position: relative;
+	float: left;
+	background: orange;
+}
+
+@media screen and (min-width: 479px) and (max-width: 780px) {
+	.container {
+		width: 100%;
+	}
+	.left-side {
+		width: 100%;
+		height: 200px;
+	}
+	.middle, .right {
+		height: 400px;
+		width: 49%;
+		margin: 0%;
+		margin-top: 10px;
+	}
+	.middlle {
+		margin-right: 1%;
+	}
+	.right {
+		margin-left: 1%;
+	}
+}
+
+@media screen and (max-width: 478px) {
+	.container {
+		width: 100%;
+	}
+	.left-side {
+		width: 100%;
+		height: 200px;
+	}
+	.middle, .right {
+		height: 300px;
+		width: 100%;
+		margin-top: 10px;
+	}
+}
+</style>
+
+</head>
+<body>
+	<div class="container">
+		<div class="header"></div>
+		<div class="center">
+			<div class="left-side"></div>
+			<div class="middle"></div>
+			<div class="right"></div>
+		</div>
+	</div>
+	
+</body>
+</html>
